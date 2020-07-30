@@ -2,7 +2,6 @@
 
 - name: Centreon-Web
   hosts: all
-  remote_user: root
 
   roles:
     - "roles/common"
