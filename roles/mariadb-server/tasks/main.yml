@@ -3,7 +3,7 @@
     yum:
       name:
         - MySQL-python
-        - MariaDB-server
+        - mariadb-server
       state: latest
 
   - name: Add LimitNOFILE=32000 systemd
