@@ -1,6 +1,6 @@
 ---
 - name: Centreon-Poller
-  hosts: centreon-poller
+  hosts: all
   remote_user: root
 
   roles:
