@@ -1,0 +1,6 @@
+---
+- name: Centreon-Poller
+
+  roles:
+    - "roles/common"
+    - "roles/centreon-poller"

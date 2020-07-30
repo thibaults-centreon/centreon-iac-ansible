@@ -1,8 +1,6 @@
 ---
 
 - name: Centreon-Web
-  hosts: centreon-web
-  remote_user: root
 
   roles:
     - "roles/common"
@@ -22,11 +20,3 @@
       plugin_pack:
         - "base-generic"
         - "Linux SNMP"
-
-- name: Centreon-Poller
-  hosts: centreon-poller
-  remote_user: root
-
-  roles:
-    - "roles/common"
-    - "roles/centreon-poller"
